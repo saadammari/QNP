@@ -243,4 +243,11 @@ intros. generalize dependent tenv. generalize dependent tenv'.
 - inv H5. apply simp_aexp_no_eval in H0. rewrite H0 in H13. inv H13. destruct a; simpl in *; try easy. eapply IHqfor_sem; try easy. unfold trans_state_qafny in *. destruct (trans_qstate vs s'); try easy. admit. unfold trans_state_qafny in *. destruct s in *; simpl in *. admit. apply H15.
 - admit.
 - inv H3.
--
+- admit.
+- inv H3.
+- inv H3.
+- destruct b in *; simpl in *; try easy.
+- destruct b in *; simpl in *; try easy.
+- admit.
+- admit. 
+- inv H2. 
